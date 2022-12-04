@@ -11,6 +11,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  margin: 0;
 }
 
 .container {
@@ -379,8 +380,6 @@ button {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-/* calc((100% - 48px) / 3) */
-
 .item-blok {
 }
 
@@ -402,12 +401,8 @@ button {
 }
 /* =========portfolio header========= */
 .header-border {
-  border-bottom: #ffffff;
-  border-left: none;
   background: #ffffff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 0px rgba(46, 47, 66, 0.08);
+
 }
