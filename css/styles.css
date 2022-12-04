@@ -174,7 +174,7 @@ button {
 .hero {
   display: block;
   background-color: var(--title-color);
-  width: 1440px;
+  /* width: 1440px; */
   height: 603px;
   margin-left: auto;
   margin-right: auto;
@@ -218,6 +218,10 @@ button {
 }
 
 /* ================= features =================*/
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -243,8 +247,10 @@ button {
 
 .features-list {
   display: flex;
-  margin-top: 120px;
-  margin-bottom: 120px;
+}
+
+.features-item {
+  width: 264px;
 }
 
 .features-item:not(:last-child) {
@@ -291,7 +297,7 @@ button {
 }
 .team {
   background-color: #f4f4fd;
-  width: 1440px;
+  /* width: 1440px; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 120px;
@@ -303,20 +309,25 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+
+.team-box {
+  padding: 32px 16px;
+}
+
 .team-subtitles {
   text-align: center;
-  margin-top: 32px;
+
   margin-bottom: 8px;
 }
 .team-text {
   text-align: center;
-  margin-bottom: 32px;
+
 }
 /* ================= footer =================*/
 
 .footer {
   background-color: var(--title-color);
-  width: 1440px;
+  /* width: 1440px; */
   margin-left: auto;
   margin-right: auto;
   padding-top: 100px;
@@ -337,10 +348,15 @@ button {
 }
 
 /* ================= portfolio =================*/
+
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .page-filter {
   display: flex;
   justify-content: center;
-  margin-top: 96px;
   margin-bottom: 72px;
 }
 
@@ -375,7 +391,6 @@ button {
   flex-wrap: wrap;
   margin-top: -48px;
   margin-left: -24px;
-  margin-bottom: 120px;
 }
 
 .portfolio-list-item {
