@@ -139,8 +139,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+
 }
 
 .nav-item:not(:last-child) {
@@ -160,8 +159,7 @@ button {
 }
 
 .auth-link {
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+
 }
 
 .auth-item:not(:last-child) {
