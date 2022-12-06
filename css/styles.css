@@ -69,8 +69,7 @@ button {
 /* ================= header =================*/
 .header-container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 
   align-items: center;
   justify-content: flex-start;
@@ -82,12 +81,19 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 0px rgba(46, 47, 66, 0.08);
 
 }
+
+.nav-link, 
+.auth-link,
+.logo-studio,
+.logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 /* ================= logo =================*/
 .page-logo {
   margin-right: 77px;
   display: block;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+ 
 }
 
 .logo {
@@ -100,8 +106,7 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+
 }
 
 .logo-studio {
@@ -114,8 +119,7 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+
 }
 
 .logo,
@@ -132,8 +136,6 @@ button {
 .nav-link {
   color: var(--title-color);
   text-decoration: none;
-  width: 48px;
-  height: 24px;
 
   font-weight: 500;
   font-size: 16px;
@@ -203,7 +205,8 @@ button {
   width: 170px;
   height: 51px;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+
 
   font-family: inherit;
   font-weight: 500;
@@ -329,7 +332,7 @@ button {
 
 .footer {
   background-color: var(--title-color);
-  /* width: 1440px; */
+
   margin-left: auto;
   margin-right: auto;
   padding-top: 100px;
@@ -366,8 +369,6 @@ button {
   display: block;
   background-color: #f4f4fd;
   color: var(--accent-color);
-  width: 116px;
-  height: 48px;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -377,6 +378,8 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
+  padding: 12px 24px;
 }
 .filter-list:not(:last-child) {
   margin-right: 24px;
@@ -397,7 +400,7 @@ button {
 
 .portfolio-list-item {
   width: calc(100% / 3 - 24px);
-max-width: 360px;
+
 
   margin-top: 48px;
   margin-left: 24px;
